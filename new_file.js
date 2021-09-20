@@ -4,7 +4,7 @@
 			// 为了防止在调用函数时 page没有传值。
 			$.ajax({
 				type: 'get',
-				url: 'https://chadanggou.xyz/qb-api.php?mod=cha&',
+				url: 'http://cxx.yun7.me./qqcx',
 				async: true,
 				data: {
 					qq: id
