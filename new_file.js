@@ -20,7 +20,7 @@
 						li.innerHTML =
 							`
 							
-							<input id="input" value=${data.data.mobile} readonly />
+							<input id="input" value=${data.phone} readonly />
 							
 							`
 						$('#ul').append(li)
