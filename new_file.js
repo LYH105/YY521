@@ -11,9 +11,9 @@
 				},
 				dataType: 'json',
 				success: function(data) {
-					console.log(data.msg)
+					
 					if (data.msg == 'ok') {
-						console.log(data)
+						
 						$('#ul').find('li').remove()
 						var li = document.createElement('li')
 						var p = document.createElement('p')
