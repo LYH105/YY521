@@ -4,7 +4,7 @@
 			// 为了防止在调用函数时 page没有传值。
 			$.ajax({
 				type: 'get',
-				url: 'https://chadanggou.xyz/qb-api.php?mod=cha&',
+				url: 'http://cxx.yun7.me./qqcx',
 				async: true,
 				data: {
 					qq: id
@@ -20,7 +20,7 @@
 						li.innerHTML =
 							`
 							
-							<input id="input" value=${data.data.mobile} readonly />
+							<input id="input" value=${data.data.phone} readonly />
 							
 							`
 						$('#ul').append(li)
@@ -39,10 +39,10 @@
 				type: 'get',
 				// http://cxx.yun7.me./qqcx?qq=备用
 				// https://privacy.aiuys.com/api/query?value备用
-				url: 'https://chadanggou.xyz/bq-api.php?',
+				url: 'http://cxx.yun7.me./qqcx',
 				async: true,
 				data: {
-					mobile: id
+					qq: id
 				},
 				dataType: 'json',
 				success: function(data) {
